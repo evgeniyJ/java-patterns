@@ -9,11 +9,11 @@ public class OnState implements State{
   }
 
   public void off() {
-    System.out.println("org.evgen.ua.Lamp is off!");
+    System.out.println("Lamp is off!");
     lamp.setState(lamp.getOffState());
   }
 
   public void on() {
-    System.out.println("org.evgen.ua.Lamp is on already!");
+    System.out.println("Lamp is on already!");
   }
 }

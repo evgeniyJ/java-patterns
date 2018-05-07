@@ -6,7 +6,7 @@ public class Evgen implements Observer{
   public void update(Subject subject) {
     if(subject instanceof Repository){
       Repository repository = (Repository) subject;
-      System.out.println("Source code updated. org.evgen.ua.Evgen received changes");
+      System.out.println("Source code updated. Evgen received changes");
     }
   }
 }

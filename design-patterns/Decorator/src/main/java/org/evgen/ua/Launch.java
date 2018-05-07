@@ -7,9 +7,9 @@ public class Launch {
         Race human = new Human();
         Race elf = new Elf();
         //basic hp and attack
-        System.out.println("org.evgen.ua.Orc hp - " + orc.hp() + ", attack - " + orc.attack());
-        System.out.println("org.evgen.ua.Human hp - " + human.hp() + ", attack - " + human.attack());
-        System.out.println("org.evgen.ua.Elf hp - " + elf.hp() + ", attack - " + elf.attack());
+        System.out.println("Orc hp - " + orc.hp() + ", attack - " + orc.attack());
+        System.out.println("Human hp - " + human.hp() + ", attack - " + human.attack());
+        System.out.println("Elf hp - " + elf.hp() + ", attack - " + elf.attack());
         //upgrade them skills
         //orc 1x hp up and 1x attack up
         UpgradeDecorator orcWithUpgradedAttackAndHP = new HPUpgrade(new AttackUpgrade(orc));

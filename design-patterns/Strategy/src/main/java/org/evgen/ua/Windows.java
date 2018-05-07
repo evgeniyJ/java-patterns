@@ -8,6 +8,6 @@ public class Windows extends OperatingSystem {
 
   @Override
   public void loadOS() {
-    System.out.println("org.evgen.ua.Windows loaded");
+    System.out.println("Windows loaded");
   }
 }

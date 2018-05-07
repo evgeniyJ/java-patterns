@@ -6,7 +6,7 @@ public class Andriy implements Observer{
   public void update(Subject subject) {
     if(subject instanceof Repository){
       Repository repository = (Repository) subject;
-      System.out.println("Source code updated. org.evgen.ua.Andriy received changes");
+      System.out.println("Source code updated. Andriy received changes");
     }
   }
 }

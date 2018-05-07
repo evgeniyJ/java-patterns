@@ -4,7 +4,7 @@ public class Circle extends Shape{
 
   @Override
   void draw() {
-    System.out.println("org.evgen.ua.Circle!");
+    System.out.println("Circle!");
   }
 
   @Override
