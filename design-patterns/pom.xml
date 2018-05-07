@@ -9,9 +9,19 @@
         <artifactId>parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>Observer</artifactId>
+    <artifactId>design-patterns</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-
+    <modules>
+        <module>Adapter</module>
+        <module>Command</module>
+        <module>Decorator</module>
+        <module>Facade</module>
+        <module>Factory</module>
+        <module>Observer</module>
+        <module>State</module>
+        <module>Strategy</module>
+        <module>TemplateMethod</module>
+    </modules>
 </project>

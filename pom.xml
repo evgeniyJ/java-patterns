@@ -10,15 +10,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>Adapter</module>
-        <module>Command</module>
-        <module>Decorator</module>
-        <module>Facade</module>
-        <module>Factory</module>
-        <module>Observer</module>
-        <module>State</module>
-        <module>Strategy</module>
-        <module>TemplateMethod</module>
+        <module>design-patterns</module>
     </modules>
 
     <build>
