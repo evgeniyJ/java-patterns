@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>org.evgen.ua</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>patterns</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>design-patterns</artifactId>
