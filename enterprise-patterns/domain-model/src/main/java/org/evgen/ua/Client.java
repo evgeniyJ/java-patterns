@@ -22,6 +22,7 @@ public class Client {
     }
 
     public static List<Client> loadClients() {
+        //logic with database access in done in another place!
         return Arrays.asList(
                 new Client("Yevheniy", "example@gmail.com"),
                 new Client("Vlad", "test@gmail.com")

@@ -14,6 +14,7 @@ public class Product {
     }
 
     public void save() {
+        //logic with database access in done in another place!
         System.out.println("Saving new product " + this);
     }
 
