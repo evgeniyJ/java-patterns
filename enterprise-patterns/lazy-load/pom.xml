@@ -6,17 +6,12 @@
 
     <parent>
         <groupId>org.evgen.ua</groupId>
-        <artifactId>patterns</artifactId>
+        <artifactId>enterprise-patterns</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>enterprise-patterns</artifactId>
-    <packaging>pom</packaging>
+
+    <artifactId>lazy-load</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>transaction-script</module>
-        <module>domain-model</module>
-        <module>active-record</module>
-        <module>lazy-load</module>
-    </modules>
+
 </project>
